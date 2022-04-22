@@ -15,6 +15,11 @@
       "redirectTo": "/avatar"
     },
     {
+      "icon": "arrow-forward-outline",
+      "name": "Badge",
+      "redirectTo": "/badge"
+    },
+    {
       "icon": "radio-button-off-outline",
       "name": "Buttons",
       "redirectTo": "/button"
@@ -28,6 +33,11 @@
       "icon": "checkmark-circle-outline",
       "name": "Checks",
       "redirectTo": "/check"
+    },
+    {
+      "icon": "checkmark-circle-outline",
+      "name": "Chip",
+      "redirectTo": "/chip"
     },
     {
       "icon": "calendar-outline",
@@ -58,6 +68,11 @@
       "icon": "list-outline",
       "name": "List - Sliding",
       "redirectTo": "/list"
+    },
+    {
+      "icon": "reorder-three-outline",
+      "name": "Radio",
+      "redirectTo": "/radio"
     },
     {
       "icon": "reorder-three-outline",
@@ -95,6 +110,11 @@
       "redirectTo": "/search"
     },
     {
+      "icon": "search-outline",
+      "name": "Select",
+      "redirectTo": "/select"
+    },
+    {
       "icon": "copy-outline",
       "name": "Segment",
       "redirectTo": "/segment"
@@ -113,5 +133,15 @@
       "icon": "pricetag-outline",
       "name": "Toast",
       "redirectTo": "/toast"
+    },
+    {
+      "icon": "pricetag-outline",
+      "name": "Toggle",
+      "redirectTo": "/toggle"
+    },
+    {
+      "icon": "pricetag-outline",
+      "name": "Thumbnail",
+      "redirectTo": "/thumbnail"
     }
 ]
