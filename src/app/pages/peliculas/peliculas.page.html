@@ -1,0 +1,34 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>peliculas</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<app-header titulo="Peliculas"></app-header>
+
+<ion-content>
+  <div class="post" *ngFor="let post of arrayPosts | valueArray ">
+    <h2>{{post.number}}</h2>
+    <h1>entro</h1>
+  </div>
+
+  <!-- <div class="post" *ngFor="let key of keys">
+    <h2>{{ arrayPosts[key].Title }}</h2>
+  </div> -->
+<!-- <ion-list>
+  <ion-item-sliding *ngFor="let user of peliculas | async">
+
+
+    <ion-item>
+        <ion-label>
+          <p> {{ user.Title }} </p>
+        </ion-label>
+
+    </ion-item>
+
+</ion-item-sliding>
+
+
+  
+</ion-list> -->
+
+</ion-content>

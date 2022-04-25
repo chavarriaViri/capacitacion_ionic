@@ -10,6 +10,11 @@
       "redirectTo": "/alert"
     },
     {
+      "icon": "laptop-outline",
+      "name": "Api's",
+      "redirectTo": "/apis"
+    },
+    {
       "icon": "beaker-outline",
       "name": "Avatar",
       "redirectTo": "/avatar"

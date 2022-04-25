@@ -1,0 +1,52 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>api-covid</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<app-header titulo="Api covid"></app-header>
+
+<ion-content>
+
+  
+  <ion-list *ngFor="let post of arrayPosts">
+
+    <ion-list-header>
+      <ion-label>API: Datos de covid US</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>dateChecked</ion-label>
+      <ion-label>{{post.dateChecked}}</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>positive</ion-label>
+      <ion-badge color="primary" slot="end">{{post.positive}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>negative</ion-label>
+      <ion-badge color="secondary" slot="end">{{post.negative}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>pending</ion-label>
+      <ion-badge color="warning" slot="end">{{post.pending}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>hospitalizedCurrently</ion-label>
+      <ion-badge color="tertiary" slot="end">{{post.hospitalizedCurrently}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>hospitalizedCumulative</ion-label>
+      <ion-badge color="success" slot="end">{{post.hospitalizedCumulative}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>onVentilatorCurrently</ion-label>
+      <ion-badge color="danger" slot="end">{{post.onVentilatorCurrently}}</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>onVentilatorCumulative</ion-label>
+      <ion-badge color="light" slot="end">{{post.onVentilatorCumulative}}</ion-badge>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

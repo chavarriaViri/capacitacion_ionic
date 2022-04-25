@@ -1,0 +1,20 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>api-imagenes</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<app-header titulo="Api 3"></app-header>
+
+<ion-content padding>
+  <div class="post" *ngFor="let fo of arrayfoto">
+    <!-- <div>{{fo.urls.small}}</div> -->
+    <ion-slides>
+      <ion-slide><img width="180" height="180" src="{{fo.urls.small}}" /></ion-slide>
+    </ion-slides>
+  </div>
+  <p>
+    <ion-button expand="full" (click)="getfoto()">Cambiar imagen</ion-button>
+  </p>
+
+</ion-content>

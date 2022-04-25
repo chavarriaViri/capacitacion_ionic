@@ -144,6 +144,26 @@ const routes: Routes = [
     path: 'toggle',
     loadChildren: () => import('./pages/toggle/toggle.module').then( m => m.TogglePageModule)
   },
+  {
+    path: 'apis',
+    loadChildren: () => import('./pages/apis/apis.module').then( m => m.ApisPageModule)
+  },
+  {
+    path: 'api-juegos',
+    loadChildren: () => import('./pages/api-juegos/api-juegos.module').then( m => m.ApiJuegosPageModule)
+  },
+  {
+    path: 'peliculas',
+    loadChildren: () => import('./pages/peliculas/peliculas.module').then( m => m.PeliculasPageModule)
+  },
+  {
+    path: 'api-covid',
+    loadChildren: () => import('./pages/api-covid/api-covid.module').then( m => m.ApiCovidPageModule)
+  },
+  {
+    path: 'api-imagenes',
+    loadChildren: () => import('./pages/api-imagenes/api-imagenes.module').then( m => m.ApiImagenesPageModule)
+  },
 
  
 ];
